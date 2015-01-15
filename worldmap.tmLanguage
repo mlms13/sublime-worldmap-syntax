@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>worldmap</string>
+	</array>
+	<key>name</key>
+	<string>World Map</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Empty space in the map</string>
+			<key>match</key>
+			<string>0</string>
+			<key>name</key>
+			<string>comment.line.empty</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>A simple wall in the map</string>
+			<key>match</key>
+			<string>1</string>
+			<key>name</key>
+			<string>invalid.illegal.wall</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.worldmap</string>
+	<key>uuid</key>
+	<string>2229a71b-3334-418e-9a21-b21a9a02f76b</string>
+</dict>
+</plist>

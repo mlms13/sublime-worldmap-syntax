@@ -1,0 +1,16 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: World Map
+scopeName: source.worldmap
+fileTypes: [worldmap]
+uuid: 2229a71b-3334-418e-9a21-b21a9a02f76b
+
+patterns:
+- comment: Empty space in the map
+  name: comment.line.empty
+  match: "0"
+
+- comment: A simple wall in the map
+  name: invalid.illegal.wall
+  match: "1"
+...

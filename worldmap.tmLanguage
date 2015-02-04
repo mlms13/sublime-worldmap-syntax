@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Empty space in the map</string>
 			<key>match</key>
-			<string>0</string>
+			<string>[.]</string>
 			<key>name</key>
 			<string>comment.line.empty</string>
 		</dict>
@@ -22,7 +22,7 @@
 			<key>comment</key>
 			<string>A simple wall in the map</string>
 			<key>match</key>
-			<string>1</string>
+			<string>x</string>
 			<key>name</key>
 			<string>invalid.illegal.wall</string>
 		</dict>
